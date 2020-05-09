@@ -1,3 +1,19 @@
+## Features
+Custom reactRedux boilerplate based on create-react-app (3.3.1) + https://redux-toolkit.js.org/ and custom webpack config (config-overrides.js).
+
+Added list:
+Routing
+Layouts
+Components/Elements architecture
+SCSS
+Modernizm
+Custom webPack config
+Aliases for WebPack (store, components, layouts)
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
