@@ -2,20 +2,33 @@
 Custom reactRedux boilerplate based on create-react-app (3.3.1) + https://redux-toolkit.js.org/ and custom webpack config (config-overrides.js).
 
 Added list:
+
 Routing
+
 Layouts
+
 Components/Elements architecture
+
 SCSS
+
 React-app-rewire-styled-components
+
 Modernizm
+
 Custom webPack config
+
 Aliases for WebPack (store, components, layouts)
+
 Image Optimization
+
 Case sensitive Plugin (to solve file app.js does not match the corresponding path on disk App.js)
 
 Aliases: {
+
   components: 'src/components',
+
   '@store': 'src/app/',
+
 }
 
 
