@@ -1,7 +1,7 @@
 ## Features
 Custom reactRedux boilerplate based on create-react-app (3.3.1) + https://redux-toolkit.js.org/ and custom webpack config (config-overrides.js).
 
-Added list:
+### Added list:
 
 Routing
 
