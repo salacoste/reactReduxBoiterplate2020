@@ -10,6 +10,8 @@
     "modernizr": "^3.11.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-app-rewire-alias": "^0.1.4",
+    "react-app-rewire-imagemin-plugin": "^1.0.1",
     "react-app-rewire-styled-components": "^3.0.2",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
@@ -39,8 +41,10 @@
     ]
   },
   "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.3.0",
     "copy-webpack-plugin": "^5.1.1",
     "react-app-rewire-modernizr": "^0.2.1",
+    "react-app-rewire-postcss": "^3.0.2",
     "react-app-rewired": "^2.1.6"
   }
 }

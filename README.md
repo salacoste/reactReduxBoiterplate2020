@@ -6,12 +6,17 @@ Routing
 Layouts
 Components/Elements architecture
 SCSS
+React-app-rewire-styled-components
 Modernizm
 Custom webPack config
 Aliases for WebPack (store, components, layouts)
+Image Optimization
+Case sensitive Plugin (to solve file app.js does not match the corresponding path on disk App.js)
 
-
-
+Aliases: {
+  components: 'src/components',
+  '@store': 'src/app/',
+}
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
