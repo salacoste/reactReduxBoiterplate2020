@@ -9,6 +9,8 @@
     "@testing-library/user-event": "^7.2.1",
     "modernizr": "^3.11.1",
     "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1",
+    "pngquant-bin": "^3.1.1",
     "react": "^16.13.1",
     "react-app-rewire-alias": "^0.1.4",
     "react-app-rewire-imagemin-plugin": "^1.0.1",
@@ -43,6 +45,7 @@
   "devDependencies": {
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
     "copy-webpack-plugin": "^5.1.1",
+    "imagemin-pngquant": "^5.0.1",
     "react-app-rewire-modernizr": "^0.2.1",
     "react-app-rewire-postcss": "^3.0.2",
     "react-app-rewired": "^2.1.6"

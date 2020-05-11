@@ -35,8 +35,11 @@ module.exports = function override(config, env) {
     }
   })
   alias({
-    'components/*': 'src/components/*',
-    '@store': 'src/app/store.js',
+    '@components': path.resolve(__dirname, 'src/components') ,
+    '@store$': path.resolve(__dirname, 'src/app/store.js'),
+    '@': path.resolve(__dirname, 'src'),
+    '@features': path.resolve(__dirname, 'src/features'),
+    '@utils': path.resolve(__dirname, 'src/utils')
   })(config)
 
   config = postCSS(config/*, options */)
